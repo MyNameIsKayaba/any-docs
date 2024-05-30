@@ -1,11 +1,11 @@
-# 故障排除
+# Troubleshooting
 
-如果出现错误，你可以在查看 [论坛](https://community.anytype.io/) 或联系 [支持人员](mailto:support@anytype.io) 之前尝试以下这些步骤。
+If you get an error, you can try these steps before checking the [forum](https://community.anytype.io/) or contacting [support](mailto:support@anytype.io).
 
-1. 确保计算机上的时间正确。如果计算机本地时间相对慢了 2 小时以上，则可能无法连接。
-2. 检查你是否使用了代理、VPN、防火墙或公司网络进行连接。如果是的话，试着在不使用这些的情况下进行连接，看看是否会有所不同。
-3. 尝试在公司网络或类似环境之外进行连接。
-4. 将你的移动设备用作桌面端的 Wi-Fi 热点，并尝试通过它进行连接。
-5. 尝试从另一个设备（及网络）登录
-6. 对于 iOS 用户，请检查同步状态是否变为绿色。如果没有，请尝试从不同的网络连接。
-7. 如果你遇到图形显示问题，请尝试删除 \~/.config/anytype 下的 GPUCache 文件夹。
+1. Ensure that the time on your computer is correct. If the local time is more than 2 hours off, a connection might not be possible.
+2. Check if you’re using a proxy, VPN, firewall, or a company network to connect. If yes, try connecting without these to see if it makes a difference.
+3. Attempt the connection outside of corporate networks or similar setups.
+4. Use your mobile device as a Wi-Fi hotspot for your desktop and try connecting through that.
+5. Try to Log in from another device (& network).
+6. For iOS users, check if the sync status turns green. If not, attempt connecting from different networks.
+7. If you are having graphical issues, try deleting the GPUCache folder under \~/.config/anytype.

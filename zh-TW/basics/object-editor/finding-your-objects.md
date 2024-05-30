@@ -1,25 +1,27 @@
-# 定位你的对象
+# Locating your Objects
 
-### 使用关联图谱
+### Use the Graph
 
-要找到你的所有对象以及它们之间的联系，可以从【关联图谱 (Graph)】中寻找主要事实来源。
+To find all of your objects and how they are connected, you can look to the Graph for your main source of truth.
 
-在此处阅读有关 [关联图谱（Graph）](../graph.md "mention")的更多信息。
+Read more about the [graph.md](../graph.md "mention") here.
 
-### 浏览所有内容
+### Browse through EVERYTHING
 
-另外，默认情况下会有一个“All Objects”的集合，会以列表形式显示你所有的对象以及它们的类型。
+Additionally, to all of the objects you've created in list view, by default there is a set of 'Everything' which will show you your objects and their types.
 
-这个对象名为“All Objects”且使用这个 emoji 图标： :globe\_with\_meridians:
+Look for an object titled Everything with this emoji: :globe\_with\_meridians:
 
-### 使用搜索
+### Use the Search
 
-最后手段，如果你还是找不到想找的内容，可以尝试搜索。
+As a last resort, if you still can't find what you're looking for, try and search for it.
 
-要使用搜索，点击你导航栏上的放大镜。
+To navigate to the search, head to your navigation bar, and click on the magnifier.
 
-<figure><img src="../../../.gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
 
-{% hint style="info" %}
-上述搜索功能目前不会在关联中搜索。
-{% endhint %}
+### Bin
+
+Your objects are not permanently removed when you delete them. They are instead moved to the bin which you can locate in the sidebar below your library widget. To permanently remove them, you will need to open the bin, and choose which objects you want to remove forever.&#x20;
+
+<figure><img src="../../.gitbook/assets/image (75).png" alt=""><figcaption></figcaption></figure>

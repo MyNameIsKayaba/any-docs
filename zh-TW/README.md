@@ -1,23 +1,42 @@
 ---
-description: >-
-  Here you'll find guides, glossaries, and tutorials to help you on your Anytype
-  journey.
+description: Tools for thought, freedom & trust
 ---
 
-# 文档
+# Welcome to Anytype
 
 {% embed url="https://www.youtube.com/watch?v=dh_3NHY5eVs" %}
 
-Anytype 是一款本地优先的端对端（E2E）加密软件，旨在作为创建和存储数字资产的安全场所。
+Anytype is an **encrypted, local-first alternative** to the cloud-based Internet.&#x20;
 
-你可以使用 Anytype 创建并连接你的任务、笔记、想法、文档、工作流程等。
+With Anytype, you can build digital spaces around your interests. These spaces can be personal - for diaries, ideas and drafts, or shared - with your family, small communities, teams, neighbors and people with similar interests.
 
-未来的版本将允许你与其他人共享工作并且安全地开展协作。我们的长期愿景是让 Anytype 实现大规模协作，创建一个全球互联的知识存储库。
+Unlike cloud applications, Anytype puts the control of encryption keys firmly your hands, so you own your data and your social graph. Spaces you create are local first - they can be created offline and can sync peer-to-peer in local networks.&#x20;
 
-浏览这里的文档，了解关于产品使用、账户故障排除和数据隐私的更多信息。
+Anytype is supported by [AnySync](https://tech.anytype.io/any-sync/overview) - an open-source protocol that supports high-performant collaboration over encrypted data and creators’ controlled keys. You can find our codebase here.
 
-如需了解更多信息，请访问我们的 [网站](https://anytype.io) 或 [常见问题](https://anytype.io/faq/) 页面。
+With every architectural choice, we aim to make [fundamental digital freedoms](https://youtu.be/6Hyr881Xi8A?si=tVftb8x9V5koMt0U) unconditional. Here you can read more of our thoughts on [cloud vs. local first Internet](https://blog.anytype.io/the-nervous-system-of-humanity-needs-an-upgrade/).
 
-### 精选指南
+You can also explore pre-made templates and experiences from our community in our [Experience Gallery](https://gallery.any.coop).&#x20;
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>深入探讨：对象集</strong></td><td>了解如何通过对象集将你的工作效率提升 10 倍</td><td></td><td><a href="basics/sets/deep-dive-sets.md">deep-dive-sets.md</a></td><td><a href="../.gitbook/assets/Screenshot 2023-05-30 at 14.59.37.png">Screenshot 2023-05-30 at 14.59.37.png</a></td></tr><tr><td><strong>每日日志</strong></td><td>在你的私人空间中培养每天写日记的习惯</td><td></td><td><a href="use-cases/anytype-editor.md">anytype-editor.md</a></td><td><a href="../.gitbook/assets/Screenshot 2023-05-31 at 09.49.05.png">Screenshot 2023-05-31 at 09.49.05.png</a></td></tr><tr><td><strong>旅行 Wiki</strong></td><td>将一切内容整合到一个能够离线访问的地方</td><td></td><td><a href="use-cases/travel-wiki.md">travel-wiki.md</a></td><td><a href="../.gitbook/assets/Screenshot 2023-05-31 at 09.47.46 (1).png">Screenshot 2023-05-31 at 09.47.46 (1).png</a></td></tr></tbody></table>
+If you have questions, feedback, and ideas join us in our [community forum.](https://community.anytype.io) If you want to contribute,[ here's where you can do so](https://github.com/orgs/anyproto/discussions).
+
+### Getting Started
+
+***
+
+If you're new to Anytype, you can learn the basics here:
+
+* [Vault and Key](basics/vault-and-key.md)
+* [Space](basics/space/)
+* [Objects](basics/object-editor/)
+* [Pages and blocks](basics/object-editor/blocks.md)
+* [Links](anytype-basics/object-editor/linking-objects.md) and [relations](basics/relations/)
+* [Sets & Collections](basics/sets-and-collections/)
+* [Kanban, list, grid and calendar views](basics/sets-and-collections/views.md)
+* Sidebar and widgets
+* [Types](basics/types/) and [Templates](basics/types/templates.md)
+* [Graph](basics/graph.md)
+
+And if you are still a bit confused about some of it, please check out this excellent guide by one of our power users:
+
+{% embed url="https://www.youtube.com/watch?v=oY-ihuDJIvQ" %}

@@ -4,8 +4,8 @@ description: >-
   and tasks. Link it all together in the graph for richer insights.
 ---
 
-# 🍎 学习笔记
+# 🍎 Study Notes
 
 {% embed url="https://www.youtube.com/watch?v=Yu2-fkiKTdE" %}
 
-你可以用这个 [链接](https://gallery.any.coop/?experience=study\_hub) 的方法将这个用例导入到你的空间。
+You can import this use case to your space using this [link](https://gallery.any.coop/?experience=study\_hub).

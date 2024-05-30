@@ -1,21 +1,21 @@
-# 分享你的反馈
+# Share Your Feedback
 
-### 我们喜欢在篝火边聊天，一聊就是一天一夜！
+### We love to keep the campfire chat going all day n all night!
 
-讨论任何与 Anytype 有关的问题。
+To discuss anything related to Anytype.
 
-什么都可以，
+Any-thing.
 
-嗯，就是那些你觉得不符合其他类别的帖子，
+Well, just those which you feel don't make the cut for any of the other categories.
 
-那些帖子可以归入这个类别。&#x20;
+Those posts can go into this category.&#x20;
 
-### 我们希望听到您的想法和反馈。&#x20;
+### We love to hear your thoughts and feedback.&#x20;
 
-告诉我们你的第一印象，向我们提出反馈意见或者功能优化建议。
+Tell us your first impressions, give us feedback or suggestions for feature optimizations.
 
-你在 Anytype 中创建了想要炫耀的东西吗？跟社区分享吧！
+Have you created something in Anytype that you want to show off? Share it with the community!
 
-我们在说的是模板、使用案例的组织构思、布局等等。
+We're talking templates, use-cases organization ideas, layouts, etc.
 
 {% embed url="https://community.anytype.io/c/general-discussion/10" %}

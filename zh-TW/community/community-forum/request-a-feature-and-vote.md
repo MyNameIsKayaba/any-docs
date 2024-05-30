@@ -1,11 +1,11 @@
-# 提交功能需求与投票
+# Request a Feature & Vote
 
-在这里，你可以就所有与 功能需求和新功能开发相关的内容，进行发帖、投稿和投票！&#x20;
+This is the place to post, contribute to, & vote for all things related to feature requests & new feature development!&#x20;
 
-我们会根据社区最需要的东西来决定开发日程上的优先度。&#x20;
+We prioritize our building agenda based on what is most desired by our community.&#x20;
 
-因此，如果有你想见到的东西，就去投票支持吧！
+So if there is something you want to see happen, go out and vote for it!
 
-注意！在添加新的推荐之前，先搜索一下，看看话题是否已经存在。你也不想那样……
+Beware! Search for a topic before, see if it already exists _before_ adding a new recommendation. You wouldn't want to be that guy...
 
 {% embed url="https://community.anytype.io/c/feature-requests/6" %}

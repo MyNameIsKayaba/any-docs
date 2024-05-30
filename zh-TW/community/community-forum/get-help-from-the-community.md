@@ -1,15 +1,15 @@
-# 向社区寻求帮助
+# Get Help from the Community
 
-### 向社区和 Any 团队寻求帮助！
+### Get help from the community and Any Team!
 
-你是否想获取构建和使用 Anytype 的帮助？如果这些文档对你的帮助还不够，你可以随时查看社区中是否有人问过类似的问题。&#x20;
+Are you looking for some help building and using your Anytype? If these docs didn't help you enough, you can always check and see if someone in the community has asked a similar question.&#x20;
 
-如果你需要建议来构建某些东西，或者要从别人使用 Antype 的方法中获得灵感，你可以在这里找到丰富的信息。&#x20;
+If you need suggestions of what to build or inspiration from seeing how others are using Antype, you can find an abundance here.&#x20;
 
-如果你有与 功能需求 或 Bug 无关的问题，可以在这里大声叫出来并寻求帮助！
+This is the place to get some assistance or shout-out if you have questions unrelated to feature requests or bugs!
 
-### 不要忘了看路径指南！
+### Don't forget Trail Guides!
 
-Anytype 各方面的技术规程、教程和 demo 的资源中心。
+A resource hub of technical procedures, tutorials, and demos for various aspects of Anytype.
 
 {% embed url="https://community.anytype.io/c/how-to/8" %}

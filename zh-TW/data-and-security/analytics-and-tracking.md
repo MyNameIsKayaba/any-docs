@@ -1,20 +1,20 @@
-# 分析与追踪
+# Analytics & Tracking
 
 {% hint style="info" %}
-[未来](https://github.com/orgs/anyproto/projects/1/views/1?pane=issue\&itemId=29227689)将可以选择退出分析服务。&#x20;
+It will be possible to opt-out of analytics in the [future](https://github.com/orgs/anyproto/projects/1/views/1?pane=issue\&itemId=29227689).
 {% endhint %}
 
-在产品处于测试阶段时，我们使用分析服务来帮助我们了解应用程序的整体性能、某些功能的被使用情况以及后者对留存率的影响。
+While the product is still in pre-release, we use analytics services to help us understand performance of the app as a whole, adoption of certain features, and how the latter impacts retention.
 
-**Amplitude** 是我们用于跟踪应用程序内 _事件_ 的主要服务。通过它，我们可以跟踪以下指标：
+**Amplitude** is the main service we use for tracking _events_ inside the app. It allows us to track metrics such as:
 
-* 上个月有多少用户加入，有多少用户退出
-* 创建了多少个【对象】、【块】、【对象集】和【自定义类型】（按活跃用户数量计算的平均值）
-* 用户在应用中平均花费的时间
-* 哪些设备被用来登录此应用
+* How many users joined in the past month & how many dropped
+* How many Objects, Blocks, Sets, and Custom Types were created (and average that per number of active users)
+* How much time people spend in the app, on average
+* Which devices are used to log in to the app
 
-我们利用这些数据来了解我们的主要产品指标，以及我们的整体发展方向是否正确。虽然我们可以跟踪活动的频率和事件采用情况，_但我们无法以任何方式跟踪你创建的内容。_&#x20;
+We use these to understand our main product metrics and whether overall, we’re moving in the correct direction. While we can track frequency and adoption of events, _we cannot in any way track the content you create._
 
-在实践中意味着，比如我们知道自定义【类型】非常流行，但我们看不到这些自定义类型是什么（也看不到你用这些类型创建了哪些【对象】）。
+In practice, this means that we know for instance that custom Types are very popular, but we cannot see what these custom types are (nor which Objects you’ve created with those types).
 
-除了 Amplitude 之外，我们的工程团队还使用 Sentry 来跟踪崩溃的发生率。
+Besides Amplitude, our engineering teams use Sentry to track the prevalence of crashes.

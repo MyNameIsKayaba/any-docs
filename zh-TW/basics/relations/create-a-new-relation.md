@@ -1,25 +1,27 @@
-# 添加新的关联
+# Add a New Relation
 
-#### 添加和管理关联 <a href="#adding-and-managing-relations" id="adding-and-managing-relations"></a>
+#### Adding & Managing Relations <a href="#adding-and-managing-relations" id="adding-and-managing-relations"></a>
 
-在编辑器中，你可以像添加块一样，使用 `+` 按钮或行内的 `/` 菜单来为你的【对象】添加【关联】。你还可以通过【关联面板】管理某个【对象】的【关联】：将鼠标悬停在【对象】名称上方会出现一个三角形图标，这个面板显示了这个【对象】的所有关联。
+You can add a Relation to your Objects as you would with any other block in the editor: by using the `+` button or the in-line `/` menu. You can also manage the Relations for a given Object via its **Relations Panel:** the triangular icon that appears in the top right corner of the screen. This Panel shows all relations for that Object.
 
-**精选关联（Featuring Relations）**
+<figure><img src="../../.gitbook/assets/image (71).png" alt=""><figcaption></figcaption></figure>
 
-你可以添加、精选或者修改现有的【关联】。由于【精选关联】会直接显示在标题下方，因此，你可以通过【精选关联】来优先显示与某个【对象】最相关的【关联】。在【关联面板】中，你可以通过点击任一关联右侧的 ★ 来精选这个【关联】。
+**Featuring Relations**
+
+Here you can add, feature, or modify existing Relations. Featuring Relations allows you to visually prioritize the most relevant Relations for a given Object, as Featured Relations appear directly beneath the Title. You can feature any Relation by clicking ★ next to the relation in the Relations panel.
 
 {% embed url="https://vimeo.com/749076155?embedded=true&source=vimeo_logo&owner=177568036" %}
 
-#### 关联的类型 <a href="#types-of-relations" id="types-of-relations"></a>
+#### Types of Relations <a href="#types-of-relations" id="types-of-relations"></a>
 
-以下是 Anytype 中当前可用的【关联】类型：
+Here are the currently available Relation-types within Anytype:
 
-* **文本（Text）**：接受文本作为输入。
-* **数字（Number）**：接受所有数字。即将会推出不同的格式。
-* **日期（Date）**：日期，可选的时间信息。
-* **状态（Status）**：你可以自定义并选择的一系列分类关系，如 X、Y 或 Z。
-* **标签（Tag）**：另一种没有限制的单个字符串。
-* **邮箱/电话/URL（Email/phone/URL）**：URL、电子邮件、电话号码的特殊格式。
-* **复选框（Checkbox）**：带有布尔值、字符串或对象链接的对象。
-* **媒体（Media）**：可以查看、播放或下载的音频、电影或图片。
-* **对象（Object）**：对某个特定对象的引用，如某人、某任务或某文件。
+* **Text**: accepts text as the input.
+* **Number**: for all numbers. Different formats are coming soon.
+* **Date**: date, optional information for time.
+* **Status:** categorical relation wherein you can define a list of options to choose from, like X, Y, or Z.
+* **Tag**: another variety of the string with no limits, only one string.
+* **Email/phone/URL**: special formats for URL, email, and phone number.
+* **Checkbox**: an object with a boolean, string, or link to an object.
+* **Media**: audio, movies, or pictures which you can view, play, or download.
+* **Object**: reference to a specific object, like a person, task, or document.

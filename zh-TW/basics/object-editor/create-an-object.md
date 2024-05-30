@@ -2,33 +2,37 @@
 description: How do you create an object?
 ---
 
-# 如何创建对象
+# Ways to Create Objects
 
-### 导航菜单
+### Navigation menu
 
-左键单击加号按钮，就会立即创建一个新对象，类型是你在空间设置中设定的默认对象类型。
+When clicking the plus-button, you’ll be presented with a menu of standard types, plus your most recently-used Types. You can then choose which one you want to create.
 
-右键单击加号按钮，会出现一个菜单，其中有标准类型以及你最近使用过的【类型】。
+This behavior can be changed in your [vault settings](../vault-and-key/account-and-data.md#preferences) to either hover or right-click. Both of these alternative settings will change the behavior of the left-click to immediately create a new object with the type that is set as your default object type in your space settings.&#x20;
 
-### 正斜杠命令
+The hover setting will additionally show the original menu after you hover over the `+` button for a few seconds, while the right-click setting will require you to right-click the `+` button instead.
 
-使用 Anytype 时，你可以键入“/”来创建一个新的【对象】。这将显示你已创建过的【对象】列表。只需选择要创建的【对象】，它就会链接到你当前的位置。
+<figure><img src="../../.gitbook/assets/image (69).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+### Forward Slash Command
 
-你也可以在这里链接到已经存在的【对象】。
+When working in Anytype you can create a new Object by typing the "/". This will bring up the list of Objects that you have created. Simply select the Object you'd like to create and it will be linked at your current place.
 
-### 使用快捷键
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
-要快速创建一个新的【对象】，可以使用这个快捷键：⌘+N
+You can also link to an existing Object here.
 
-它会执行与点击导航栏中“+”号相同的操作。
+### Use a Shortcut
 
-### 转换为对象
+For a quick creation of a new Object, you can use this shortcut: ⌘+N
 
-如果你在处理现有的【对象】中的某些内容，并且想只将某个块转换为【对象】，你可以通过操作菜单中的任一操作来实现：
+This will perform the same action as clicking the "+" sign in the navigation bar.
 
-1. 将鼠标悬停在激活中的块的左侧，然后点击那 3 个点的操控杆。
-2. 使用键盘快捷键 ⌘+/ 。
+### Turn Into Object
 
-<figure><img src="../../../.gitbook/assets/image (25).png" alt=""><figcaption><p>操作菜单</p></figcaption></figure>
+If you are working on something in an existing Object and would like to transform only a certain block into an Object, you can do that through the action menu by either:
+
+1. Hovering to the left side of the block that you are working on and clicking the 3 dots.
+2. Using the ⌘+/ keyboard shortcut.
+
+<figure><img src="../../.gitbook/assets/image (25).png" alt=""><figcaption><p>Action menu</p></figcaption></figure>

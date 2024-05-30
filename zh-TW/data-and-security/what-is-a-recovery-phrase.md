@@ -1,41 +1,58 @@
 ---
-description: There are no passwords in Anytype - only your recovery phrase.
+description: There are no passwords in Anytype - only your key
 ---
 
-# 恢复短语（Recovery Phrase）
+# Key
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-08-17 at 18.31.38.png" alt=""><figcaption><p>你可以随时前往 个人资料 > 设置 > 恢复短语 来访问你的恢复短语。</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-08-17 at 18.31.38.png" alt=""><figcaption><p>You can access your key at any time by navigating to Profile > Settings > Key</p></figcaption></figure>
 
-创建账户时，你会收到自己的 12 个单词的助记词短语。这个短语在设备上生成，它是访问你的账户和解密数据的唯一途径。
+When you create your vault, you will receive your very own 12 word mnemonic phrase_._ This phrase is generated on-device and is the only way to access your vault and decrypt your data.
 
-你的【恢复短语】同时具有登录用户名和密码的功能。这些助记词代表着你注册时生成的主密钥，类似于比特币钱包。
+Your Key functions as your login and passphrase at the same time. This mnemonic represents your master key generated upon signup, similar to a Bitcoin wallet.
 
-你没有办法更改它，保证它的安全极其重要。你可以随时前往 个人资料 > 设置 > 恢复短语 来访问它。
+Changing it is impossible, and it's extremely important you keep it safe. You can access it at any time by navigating to Profile > Settings > Key.
 
-### 别忘了将它存下来！
+### Don't forget to save it!
 
-我们不会保存恢复短语的副本，这意味着如果短语丢失，我们将无法协助你恢复账户。因此，我们建议你做一个数字备份，或者将它写下来并妥善保存。
+We do not save a copy of your key, which means that if it's lost, we are not able to assist with recovering your vault. For this reason, we recommend making a digital backup or writing it down and keeping it somewhere safe.
 
-每次登录新设备时，你都需要使用它。
+You will need this key each time you login on a new device.
 
-### 什么是恢复短语？
+### What is a Key?
 
-【恢复短语】也即种子短语，是用来作为加密密钥的 **独特单词组合**。一个典型的【恢复短语】由 12、18 或 24 个预定义列表中选出的单词组成。
+Your key, also known as a seed phrase, is a **unique combination of words** that serves as a cryptographic key. A typical Key consists of 12, 18, or 24 words selected from a predefined list of words.
 
-你的恢复短语会使用 [**BIP39 算法**](https://medium.com/coinmonks/mnemonic-generation-bip39-simply-explained-e9ac18db9477) 来生成出你账户的 [**私钥**](https://en.wikipedia.org/wiki/Public-key\_cryptography)。
+Your key is used to derive your account's [**private key**](https://en.wikipedia.org/wiki/Public-key\_cryptography) using the [**BIP39 Algorithm**](https://medium.com/coinmonks/mnemonic-generation-bip39-simply-explained-e9ac18db9477).
 
-### 我们为什么要使用恢复短语？
+### Why do we use a seed phrase as a Key?
 
-【恢复短语】的主要目的是为备份和恢复加密信息提供一种安全便捷的方法。通过使用【恢复短语】，即使设备丢失、被盗或损坏，我们也能恢复私人密钥并访问数字资产。它就像一把打开我们数据的大门的万能钥匙，这使它成为长期保存数据和确保数据安全不可或缺的工具。
+The primary purpose of a seed phrase is to provide a secure and convenient method for backing up and restoring encrypted information. By utilizing a seed phrase, we can recover our private keys and access our data even if our devices are lost, stolen, or damaged. It acts as a master key that unlocks the gateway to our data, making it an indispensable tool for long-term data preservation and security.
 
-【恢复短语】遵循一项名为 BIP-39 (Bitcoin Improvement Proposal 39) 的标准化协议，用来确保不同钱包和应用程序之间的兼容性。BIP-39 协议还引入了“校验和”来检测转录错误，从而最大限度地降低因人为错误而造成损失的风险。
+Seed phrases follow a standardized protocol called BIP-39 (Bitcoin Improvement Proposal 39), which ensures compatibility across different wallets and applications. The BIP-39 protocol also introduces a checksum to detect transcription errors, minimizing the risk of loss due to human error.
 
-### 任何人都可以获取我的恢复短语吗？
+### Can Anyone Obtain My Key?
 
-【恢复短语】的优势在于它能够保护你的数字资产。如果生成、管理和存储得当，任何人几乎都不可能在未经你同意或不知情的情况下获取你的【恢复短语】。【恢复短语】是通过复杂的数学算法生成的，可能的组合数量之多，使攻击者猜测或强行获取【恢复短语】的难度极大。
+The strength of your key lies in its ability to safeguard your digital assets. When properly generated, managed, and stored, it is nearly impossible for anyone to obtain your key without your consent or knowledge. Keys are generated using complex mathematical algorithms, and the sheer number of possible combinations makes it extremely challenging for an attacker to guess or brute-force their way to your key.
 
-不过，重要的是要明白，保护【恢复短语】的责任最终在于你自己。为了方便，以数字形式来存储它看起来很有吸引力，但这些方法可能会带来漏洞。相反，建议将【恢复短语】写在物理介质上，并安全地存储在只有你自己知道的地方。避免将【恢复短语】存储在连接互联网的设备上或云存储中，因为它们可能会受到黑客或未经授权访问的破坏。
+However, it's crucial to understand that the responsibility of protecting your key ultimately lies with you. While it may be tempting to store it digitally for convenience, these methods can introduce vulnerabilities. Instead, it is recommended to write down your key on a physical medium, and store it securely in a location known only to you. Avoid storing your Key on devices connected to the internet or in cloud storage, as they can be compromised by hackers or unauthorized access.
 
-### Linux 上的登录问题
+### Key storage
 
-Linux 用户可能在每次登录时都会被要求输入【恢复短语】。要解决这个问题，请安装密钥串（Keychain）。最流行的是 [GNOME Keyring](https://wiki.gnome.org/Projects/GnomeKeyring) — 请查看 [社区论坛上的讨论](https://community.anytype.io/t/linux-version-does-not-keep-me-logged-in/4859)。除此之外，请确保你已事先满足所有的 [依赖项](https://github.com/anyproto/anytype-ts#dependencies)。
+If you’re using a Mac, Anytype’s default setting is to store your key in the native Keychain Access app. It doesn’t get stored anywhere else. Whether your passwords are backed up to iCloud depends if you have that option enabled in your settings. You can check [Apple’s support page](https://support.apple.com/en-us/HT204085) for more information on iCloud password backups.
+
+We’ve set up this system as a safety net for users who might otherwise lose their Key. We’re pursuing different options for the future, but for the time being, this is how it works.
+
+If you logged in with your key on your mac, then you can find it here:
+
+1. Click and open Finder from the dock.
+2. Click on Applications & open Utilities.
+3. Open the Keychain Access app.
+4. On the sidebar: select Default Keychains: login
+5. Find & open your Anytype instance in the list
+6. Check the “Show password” box to reveal your key
+
+#### Windows and Linux
+
+On Windows, your key is stored in the [Credentials Manager](https://support.microsoft.com/en-us/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0).
+
+On Linux, you can use [seahorse](https://wiki.gnome.org/Apps/Seahorse/) to find your key if you are using [GNOME Keyring](https://wiki.gnome.org/action/show/Projects/GnomeKeyring?action=show\&redirect=GnomeKeyring).

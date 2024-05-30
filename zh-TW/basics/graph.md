@@ -2,26 +2,22 @@
 description: Finally a dive into your graph of objects.
 ---
 
-# 关联图谱（Graph）
+# Graph
 
-{% hint style="danger" %}
-图谱功能目前在移动端应用上不可用。
-{% endhint %}
+### From anywhere in the app, you'll see the graph icon  in the bottom navigation panel
 
-### 在应用中的任何位置，你都可以在底部导航面板中看到关联图谱的图标
+<figure><img src="../.gitbook/assets/Graph Icon.png" alt=""><figcaption><p>Locate the graph icon in the middle of your navigation panel</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/Graph Icon.png" alt="" width="375"><figcaption><p>找到导航面板中间的关联图谱图标</p></figcaption></figure>
+### Open your Graph to see all of your objects and their relations.
 
-### 打开【关联图谱】，查看所有对象以及它们的关联。
+Here you can see which Objects are connected together, and the direction everything flows.
 
-在这里，你可以看到哪些【对象】连接在一起，以及所有对象的流向。
+<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
-![](<../../.gitbook/assets/image (10).png>)
+On the top right of the screen in your Graph, you can **search** and optimize some settings.&#x20;
 
-在【图谱】视图的右上方，你可以执行 **搜索** 以及优化调整部分设置。&#x20;
+Toggle appearances for title, arrows, and icons.&#x20;
 
-切换标题、箭头和图标的外观。
+Optimize viewing links, relations, and orphans. **If you are missing some objects, check to show orphans.**
 
-优化对链接、关联和孤立对象的查看。如**如果你发现缺少某些对象，检查孤立对象是否被设置为显示。**
-
-![](<../../.gitbook/assets/image (6).png>)
+<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>

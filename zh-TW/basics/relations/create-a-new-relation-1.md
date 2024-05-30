@@ -2,20 +2,20 @@
 description: How to create new relations from the library and your editor
 ---
 
-# 创建新的关联
+# Create a New Relation
 
-[Anytype 资料库](../anytype-library/ "mention") 是管理、搜索和创建新的关联的中枢。
+The [anytype-library.md](../anytype-library.md "mention") is the central place to manage, search for, and create new relations.
 
-### 在资料库中创建新的关联
+### Creating Relations from the Library
 
-点击搜索栏，输入要创建的关联名称。下拉菜单中将出现 Anytype 资料库中所有匹配的术语。你可以选择其中任何一个，它们就会新安装到你的关联库中。如果你更想创建自己的关联，只需选择 `+ 创建关联 "关联名称"`。
+Click on the search bar and input the name of the relation you'd like to create. The dropdown menu will be populated with any matching terms from the Anytype library. You can select any of these, and they'll be installed newly in your relations library. If you'd prefer instead to create your own relation, simply choose the option `+ Create relation "Relation name".`
 
-如果你选择了创建自己的关联，则会自动打开【关联】页面。
+If you opt to create your own relation, the Relation page will open automatically.
 
-如果你认为这种【关联】没有意义，可以使用角落的三点菜单从空间中删除该关联。
+If you've decided that this Relation is no relevant, you can use the three-dots menu in the corner to delete the relation from your space.
 
-### 在对象编辑器创建关联
+### Creating Relations from the Object Editor
 
-要即时创建新的关联，你可以按照 [添加和管理关联](create-a-new-relation.md#adding-and-managing-relations "mention") 中的说明进行操作，使用关联选择菜单的方法与使用【关联库】中搜索栏的方法相同。这个新的关联会自动添加到【关联库】中，同时，你可以继续编辑当前的对象。
+To create new relations on-the-fly, you can follow the instructions from[#adding-and-managing-relations](create-a-new-relation.md#adding-and-managing-relations "mention"), and use the relation selection menu in the same way as the search bar in the Relation library. The relation will be automatically added to your Relations library, while you can proceed with editing the current object.
 
-你在对象编辑器中创建的所有关联，都可以通过上面的步骤在【关联库】中进行编辑。
+Any relation you create from the object editor will be available for editing in the Relations library using the steps above.

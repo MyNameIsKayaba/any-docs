@@ -1,11 +1,11 @@
-# 报告 Bug
+# Report A Bug
 
-### 踩死那只虫子（Bug）！
+### Squash that bug!
 
-遇到了奇怪的情况？告诉我们的团队，让我们一起解决它。我们希望这款应用程序尽可能完美无瑕。&#x20;
+Experiencing something weird? Tell the team and let's get it solved. We want this application to be as spotless as possible.&#x20;
 
-在社区论坛上创建错误报告时，你将看到一个模板，该模板将为我们的团队提供理解问题所需的准确信息。我们恳请你尽可能明确地遵循这一格式。&#x20;
+When creating a bug report on the Community Forum, you'll be presented with template which will give our team the precise information necessary to comprehend the issue. We kindly ask you to please follow this format as explicitly as you can.&#x20;
 
-清楚准确地描述你遇到的错误，将有助于我们的版主和夜间运维团队复现该问题。如果确认了该错误是普遍存在的，就会立即上报给我们的开发团队进行处理。&#x20;
+Providing a clear and accurate explanation of the bug you encountered will assist our Mods and Nightly Ops team in reproducing the issue. This will establish that the problem is widespread and should be escalated to our dev team for more immediate attention.&#x20;
 
 {% embed url="https://community.anytype.io/c/bug-reports/7" %}

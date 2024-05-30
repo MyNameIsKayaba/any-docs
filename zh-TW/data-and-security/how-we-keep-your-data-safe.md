@@ -1,31 +1,27 @@
-# 隐私与加密
+# Privacy & Encryption
 
-### 隐私 <a href="#privacy" id="privacy"></a>
+### Privacy <a href="#privacy" id="privacy"></a>
 
-在 Anytype 中，你的所有数据都是保密的。只有你才拥有加密密钥。Anytype 的任何人都无法解密你的数据。因此，如果你丢失了短语，我们无法恢复你的访问权限。同样，Anytype 的任何人或其他任何人都无法读取你的 Anytype 内容。
+All of your data is private in Anytype. Only you have the encryption keys. No one at Anytype can decrypt your data. So if you lose your phrase, we can’t restore access. Likewise, no one in Anytype or anyone else can read the content of your Anytype.
 
-{% hint style="info" %}
-由于 Anytype 的特性，你无法使用 Syncthing 或 iCloud 等服务来同步随时准备编辑的对象。
-{% endhint %}
+### Encryption <a href="#keychain" id="keychain"></a>
 
-### 加密 <a href="#keychain" id="keychain"></a>
-
-* 你的对象以一种加密格式存储在本地和节点上，只有使用加密密钥才能够解码。每个文档的加密密钥都不一样，我们有某种密钥层次结构。
-* 为了能够高效地搜索文件，我们会基于被加密的对象在本地创建你的数据的索引。这就好比两个不同的存储空间：一个存储数据，另一个存储索引。我们使用你的密钥对这些加密对象进行即时解密，执行一些逻辑，然后将结果（也即索引）保存在本地。这些索引没有被加密，但这里我们假定只有你才能访问本地数据，也就是说，你本地计算机的访问权限没有泄露。
-* 这些索引不会同步到任何地方，只会保存在你的电脑上。例如，如果你有两台设备，每台设备都有它自己的索引存储空间。
+* Your objects are stored both locally and on nodes in an encrypted format, which can only be decoded using encryption keys. They are different for each document, and we have a certain hierarchy of keys.
+* To be able to search through the documents efficiently, we create indexes of your data locally on the basis of the encrypted objects. Think of that as two different storages: one for data, the other for indexes. We decrypt these encrypted objects on the fly with your keys, perform some logic and then save the results (i.e. indexes) locally. These indexes are not encrypted, but here we assume that only you have access to your local data, i.e. the access to your local computer is not compromised.
+* These indexes are not synced anywhere and they stay only on your computer. For example, if you have two devices, each of them will have its own index storage
 
 {% hint style="danger" %}
-在这里，我们有一个前提条件，就是用户的机器没有被入侵，并且是可信任的。基本上，如果设备被入侵，就会有很多攻击媒介，包括 RAM 扫描和密码键盘记录，这会使得本地加密的作用大打折扣。我们之后一定会进行额外的加密。**目前，我们建议开启硬盘加密和设备密码。**
+We have a prerequisite that the user’s machine is non-compromised and trusted. Basically, if a device is compromised, there are plenty of attack vectors, including RAM scanning and passphrase keylogging, which makes local encryption much less useful. We will definitely make additional encryption later. **For now, we recommend turning HDD encryption and device password on.**
 {% endhint %}
 
-#### 技术细节 <a href="#tech-details" id="tech-details"></a>
+#### Tech details <a href="#tech-details" id="tech-details"></a>
 
-下面是一些关于加密和数据存储的技术细节：
+Here are some technical details on encryption and data storage:
 
-* Anytype 存储你创建的每个对象的历史更改记录。
-* 每个对象的更改，都有 2 个具有不同密钥的加密层。
-* 第一层用于连接对象内部的更改，例如“所有这些加密数据都属于 id 为 \<abc> 的对象”。
-* 第二层用于加密实际数据。我们使用带有 CFB 模式的 AES 流加密。
-* 当你为一个对象创建一个新更改时，我们会定期将其发送到我们的备份节点（仅使用第一层密钥）。有关同步的更多信息，见 [此处](https://tech.anytype.io/any-sync/overview)。
-* Anytype 备份节点可以访问第一层密钥，因此它可以将对象的更改分组，并在你要恢复数据时将它们打包发送。
-* Anytype 备份节点无法访问第二层密钥，因此无法读取数据的实际更改。
+* Anytype stores the history of changes for each object you’ve created.
+* Every object’s change has 2 encryption layers with different keys.
+* The first layer is used to connect changes within an object, e.g. "all this encrypted data belongs to the object with id \<abc>".
+* The second layer is used to encrypt the actual data. We use AES with stream encryption with CFB mode.
+* When you create a new change for an object, we periodically send it to our backup node (with only the first-layer key). More info about sync [here](https://tech.anytype.io/any-sync/overview).
+* Anytype backup nodes have access to the first layer key, so it can group changes for the object and send them in one pack when you want to restore your data.
+* Anytype backup nodes HAVE NO access to the second layer [what-is-a-recovery-phrase.md](what-is-a-recovery-phrase.md "mention"), so it can’t read the actual changes to the data.

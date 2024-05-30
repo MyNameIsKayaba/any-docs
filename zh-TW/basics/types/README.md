@@ -2,29 +2,26 @@
 description: Types are the classification system we use to categorize Objects
 ---
 
-# 类型（Types）
+# Types
 
-就像在物理世界中一样，【类型】是用来定义彼此完全不同的【对象】。
+Just as in the physical world, Types are useful for defining Objects which are categorically different from one another.
 
-香蕉在本质上不同于沙发。香蕉的功能、属性以及与其他对象的关系，更类似于苹果和橘子，而不是沙发。因此，我们可以将苹果、橙子和香蕉归类为 _水果_，而沙发则属于另一个类别：_家具_。
+A banana is something inherently different from a sofa. Its functions, properties, and relationships to other objects is more similar to those of apples and oranges, rather than sofas. For this reason, we might categorize apples, oranges, and bananas as _fruit_, whereas sofas would fall into a different category: that of _furniture._
 
-根据同样的原则，在 Anytype 中，有两个需要牢记的重要概念：
+By the same principle, in Anytype there are two important concepts to keep in mind:
 
-1\) 每个对象（Object）都有一个【类型】，这个类型在创建【对象】时被定义（之后可以更改）
+1\) Every object has a Type, which is defined at the time of Object creation (and can be changed later)
 
-2\) 不同的【类型】用于定义彼此完全不同的【对象】
+2\) Different Types are used to define Objects which are categorically different from each other
 
-在你的 Anytype 图谱中，同事、朋友和邻居都可能被视为：_Human_ 类型。以下是一些可能存在于你的图谱中的其他【类型】：
+Colleagues, friends, and neighbours might all be considered type: _Human_ in your Anytype graph. Here are other examples of Types you might have in your graph:
 
-* Task（任务）
-* Note（笔记）
-* Book（图书）
-* Movie（电影）
-* Idea（想法）
+* Task
+* Note
+* Book
+* Movie
+* Idea
 
-你可以自行决定【类型】的范围大小，但一般情况下，建议使用常规【类型】对你的【对象】进行分类，并通过 [【模板 (Templates)】](templates/deep-dive-templates.md) 进一步细化【类型】的使用。&#x20;
+It's up to you how narrow or broad you'd like your Types to be, but generally we recommend using general Types for categorizing your Objects, and further refining the use of your Types through [Templates](../../use-cases/deep-dive-templates.md).
 
-你可以随时通过侧边栏 _【资料库 (Library)】_小部件中的【类型库 (Types Library)】来查看和管理你的【类型】。
-
-
-
+You can always view and manage your Types from the Types Library, found in the _Library_ widget on your sidebar.
