@@ -2,41 +2,44 @@
 description: Tools for thought, freedom & trust
 ---
 
-# Welcome to Anytype
+# 歡迎來到Anytype
 
 {% embed url="https://www.youtube.com/watch?v=dh_3NHY5eVs" %}
 
-Anytype is an **encrypted, local-first alternative** to the cloud-based Internet.&#x20;
+Anytype 是一款 **加密的、本地優先的替代方案**，用來取代基於雲端的網際網路。
 
-With Anytype, you can build digital spaces around your interests. These spaces can be personal - for diaries, ideas and drafts, or shared - with your family, small communities, teams, neighbors and people with similar interests.
+透過 Anytype，你可以圍繞自己的興趣建立數位空間。這些空間可以是個人的——用於日記、想法和草稿，或者是共享的——與你的家人、小社群、團隊、鄰居和有共同興趣的人一起使用。
 
-Unlike cloud applications, Anytype puts the control of encryption keys firmly your hands, so you own your data and your social graph. Spaces you create are local first - they can be created offline and can sync peer-to-peer in local networks.&#x20;
+不同於雲端應用，Anytype 讓你牢牢控制加密鑰匙，因此你擁有自己的數據和社交連結圖。你創建的空間是本地優先的——它們可以離線創建，並能在本地網絡中進行點對點同步。
 
-Anytype is supported by [AnySync](https://tech.anytype.io/any-sync/overview) - an open-source protocol that supports high-performant collaboration over encrypted data and creators’ controlled keys. You can find our codebase here.
+Anytype 是由 [AnySync](https://tech.anytype.io/any-sync/overview) —— 一種開源協議支持，支持在加密數據和創作者控制的鑰匙上進行高效能的協作，你可以在這裡找到我們的程式碼庫。
 
-With every architectural choice, we aim to make [fundamental digital freedoms](https://youtu.be/6Hyr881Xi8A?si=tVftb8x9V5koMt0U) unconditional. Here you can read more of our thoughts on [cloud vs. local first Internet](https://blog.anytype.io/the-nervous-system-of-humanity-needs-an-upgrade/).
+在每一個架構選擇上，我們的目標是提供無條件的[基礎的數位自由](https://youtu.be/6Hyr881Xi8A?si=tVftb8x9V5koMt0U)。在這裡你可以閱讀我們對[雲端與本地優先的網際網路](https://blog.anytype.io/the-nervous-system-of-humanity-needs-an-upgrade/)的更多想法。
 
-You can also explore pre-made templates and experiences from our community in our [Experience Gallery](https://gallery.any.coop).&#x20;
+你也可以探索我們社群在[體驗畫廊](https://gallery.any.coop)中提供的預製模板和經驗。
 
-If you have questions, feedback, and ideas join us in our [community forum.](https://community.anytype.io) If you want to contribute,[ here's where you can do so](https://github.com/orgs/anyproto/discussions).
 
-### Getting Started
+如果你有問題、反饋和想法，歡迎加入我們的[社群論壇](https://community.anytype.io)。如果你想要貢獻，[這裡是你可以這樣做的地方](https://github.com/orgs/anyproto/discussions)。
+
+
+### 入門指南
 
 ***
 
-If you're new to Anytype, you can learn the basics here:
+如果你是 Anytype 的新手，你可以在這裡學習基礎知識：
 
-* [Vault and Key](basics/vault-and-key.md)
-* [Space](basics/space/)
-* [Objects](basics/object-editor/)
-* [Pages and blocks](basics/object-editor/blocks.md)
-* [Links](anytype-basics/object-editor/linking-objects.md) and [relations](basics/relations/)
-* [Sets & Collections](basics/sets-and-collections/)
-* [Kanban, list, grid and calendar views](basics/sets-and-collections/views.md)
-* Sidebar and widgets
-* [Types](basics/types/) and [Templates](basics/types/templates.md)
-* [Graph](basics/graph.md)
+* [保存庫(Vault)與金鑰(Key)](basics/vault-and-key.md)
+* [空間(Space)](basics/space/)
+* [物件(Object)](basics/object-editor/)
+* [頁面(Page)和區塊(Block)](basics/object-editor/blocks.md)
+* [連結(Link)](anytype-basics/object-editor/linking-objects.md) 和 [關係(Relation)](basics/relations/)
+* [集合(Set) & 收藏(Collection)](basics/sets-and-collections/)
+* [看板, 列表(List), 網格(Grid)和日曆視圖](basics/sets-and-collections/views.md)
+* 側邊欄與小工具
+* [類型](basics/types/) and [模板](basics/types/templates.md)
+* [圖表](basics/graph.md)
 
-And if you are still a bit confused about some of it, please check out this excellent guide by one of our power users:
+  
+如果你對其中的某些內容還有點困惑，請查看我們一位優秀的用戶製作的這份出色指南：
 
 {% embed url="https://www.youtube.com/watch?v=oY-ihuDJIvQ" %}

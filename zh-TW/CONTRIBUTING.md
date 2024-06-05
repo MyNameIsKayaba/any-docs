@@ -1,159 +1,159 @@
 <p align="center">
     <a href="https://doc.anytype.io">
-        <img src=".gitbook/assets/anytype-logo-360px.png" alt="Docs-Logo" width="100px" height="100px">
+        <img src="../.gitbook/assets/anytype-logo-360px.png" alt="Docs-Logo" width="100px" height="100px">
     </a>
 </p>
 
 
-## Table of Contents
+## 目錄
 
-- [**Intro**](#Intro)
-- [**Contribution process**](#contribution-process)
-- [**File Structure**](#file-structure)
-- [**Conventions**](#conventions)
-  - [**Text Formats**](#text-formats)
-  - [**Lists**](#lists)
-  - [**Blocks**](#blocks)
-  - [**Media**](#media)
+- [**介紹**](#Intro)
+- [**貢獻流程**](#contribution-process)
+- [**檔案結構**](#file-structure)
+- [**慣例**](#conventions)
+  - [**文字格式**](#text-formats)
+  - [**列表**](#lists)
+  - [**區塊**](#blocks)
+  - [**媒體**](#media)
 
-## Intro
+## 介紹
 
-ℹ️ We ask that all users read our [Code of Conduct](https://github.com/anytypeio/community/blob/main/README.md#code-of-conduct) and [Gitbook Conventions](#conventions) before contributing to the documentation.
-You are welcome to propose any changes in PR and participate in discussion in [Improvements for doc.anytype.io](https://community.anytype.io/t/improvements-for-doc-anytype-io/2862) topic. Please follow the steps below to contribute. If you're new to \_git\* and/or _GitHub_, we suggest you go through [the GitHub Guides](https://guides.github.com/introduction/flow/). 
+ℹ️ 請所有使用者在貢獻到文檔前閱讀 [Code of Conduct](https://github.com/anytypeio/community/blob/main/README.md#code-of-conduct) 和 [Gitbook Conventions](#conventions)。歡迎您提出任何Pull Request(下稱PR)中的修改建議，並參與 [改良doc.anytype.io](https://community.anytype.io/t/improvements-for-doc-anytype-io/2862) 中的討論. 請參照以下步驟貢獻. 如果您對 _git_ 和 _GitHub_ 不熟悉，我們建議您參考 [GitHub指南](https://guides.github.com/introduction/flow/). 
 
 
-## Contribution process
+## 貢獻流程
 
-1. Fork this repository
-2. (Optional) Clone the fork
-   - Using SSH
+1. 分叉(Fork)此儲存庫
+2. (可選) 克隆(Clone)此分叉
+   - 使用 SSH
      ```shell
      git clone --filter=tree:0 git@github.com:anytypeio/community.git
      ```
-   - Using HTTPS
+   - 使用 HTTPS
      ```shell
      git clone --filter=tree:0 https://github.com/anytypeio/community.git
      ```
-   - Using GitHub CLI
+   - 使用 GitHub CLI
      ```shell
      gh repo clone anytypeio/community -- --filter=tree:0
      ```
-3. Create a new branch from the latest `main`
-4. Make your changes on the new branch
-5. Commit and push to the new branch
-6. Make a pull request
-7. Assign [Vladimir](https://github.com/d1eselboy), [Divyanshu](https://github.com/div3xi) or [Enda](https://github.com/endac) as the PR reviewer
+3. 從最新的 `main` 建立新分支(Branch)
+4. 在新的分支上做出修改
+5. 提交(Commit)並推送(Push)到新的分支
+6. 建立新的PR
+7. 將 [Vladimir](https://github.com/d1eselboy), [Divyanshu](https://github.com/div3xi) 或 [Enda](https://github.com/endac) 指定為PR審核員。
 
-## File Structure
+## 檔案結構
 
-* Any Page that has been added or removed from the documentation needs to be added to the **Table Of Contents** in the file [SUMMARY.md](https://github.com/anytypeio/docs/blob/main/SUMMARY.md)
-  * Indentation is used to signify nesting of pages
-  * Pages are linked using markdown URL's, e.g.:
+* 添加或刪除文檔中的任何頁面都需要將其添加到 [SUMMARY.md](https://github.com/anytypeio/docs/blob/main/SUMMARY.md) 的**目錄**中
+  * 使用縮排表示頁面的嵌套
+  * 使用Markdown URL進行頁面連結，例如：
     ```
     [Navigation](https://github.com/anytypeio/docs/blob/main/features/navigation.md)
     ```
-* All files are saved as **Markdown .md**
-* For nesting pages, they need to be placed in the category folder. If it does not exist, then you can create the folder
-* To use images, they must all be placed inside the [.gitbook/assets](https://github.com/anytypeio/docs/tree/main/.gitbook/assets) folder and then referenced from that folder
-    > All media should be in light mode
-## Conventions
+* 所有文件保存為 **Markdown.md**
+* 對於嵌套的頁面，它們需要放置在分類資料夾中。如果不存在則可以創建該文件夾
+* 要使用圖像，它們必須全部放在 [.gitbook/assets](https://github.com/anytypeio/docs/tree/main/.gitbook/assets) 資料夾中並從該資料夾中引用 
+    > 所以媒體都應該處於淺色模式
+## 慣例
 
-> These are the rules that Gitbook follows while creating documentation from markdown. Please follow them while making any changes.
+> 這些是Gitbook自Markdown創建文檔時遵循的規則。在進行任何更改時請遵循這些規則。
 
-### Text Formats
 
-- # Heading 1
+### 文字格式
+
+- # 標題 1
   ```
-  # Heading 1
-  ```
-  
-- ## Heading 2
-  ```
-  ## Heading 2
+  # 標題 1
   ```
   
-- ### Heading 3
+- ## 標題 2
   ```
-  ### Heading 3
-  ```
-  
-- **Bold**
-  ```
-  **Bold Text**
+  ## 標題 2
   ```
   
-- *Italics*
+- ### 標題 3
   ```
-  _Italics Text_
-  ```
-  
-- ~~Strikethrough~~
-  ```
-  ~Strikethrough Text~
+  ### 標題 3
   ```
   
-- Horizontal Rule
+- **粗體**
+  ```
+  **粗體**
+  ```
+  
+- _斜體_
+  ```
+  _斜體_
+  ```
+  
+- ~~刪除線~~
+  ```
+  ~刪除線~
+  ```
+  
+- 水平線
   ```
   ---
   ```
   
-- [URL](#)
+- [連結](#)
   ```
-  [URL Name](https://example.com)
-  ```
-
-- ![Image](#)
-  ```
-  ![Image](http://url/a.png)
+  [連結名稱](https://example.com)
   ```
 
-- `Inline Code`
+- ![圖片](#)
   ```
-  `Inline Code`
-  ```
-
-### Lists
-
-- **Un-Ordered List**
-  ```
-  * Item 1
-  * Item 2
-  * Item 3
-      or
-  - Item 1
-  - Item 2
-  - Item 3
+  ![圖片](http://url/a.png)
   ```
 
-- **Ordered List**
+- `行內程式碼`
   ```
-  1. Item 1
-  2. Item 2
-  3. Item 3
+  `行內程式碼`
   ```
 
-- **Task List**
+### 列表
+
+- **無序列表**
   ```
-  * [ ] Un-checked Task
-  * [x] Checked Task
+  * 項目 1
+  * 項目 2
+  * 項目 3
+      或
+  - 項目 1
+  - 項目 2
+  - 項目 3
+  ```
+
+- **有序列表**
+  ```
+  1. 項目 1
+  2. 項目 2
+  3. 項目 3
+  ```
+
+- **任務列表**
+  ```
+  * [ ] 未勾選任務
+  * [x] 勾選任務
   ```
   
-### Blocks
+### 區塊
 
-- **Code Blocks**
+- **程式碼區塊**
 ```
-``` creates a new code block.
-```py creates a new code block with Python syntax highlighting.
+``` 建立新程式碼區塊。
+```py 創建一個帶有Python語法突出顯示的新程式碼區塊。
 ```
 
-- **Quotes**
+- **引用**
   ```
-  Use > to start a quote block.
+  使用 > 開始引用區塊.
   ```
 
-- **Information Hint Block**
+- **訊息提示區塊**
   ```
-  {% hint style="info" %} Information Hint Block {% endhint %}
+  {% hint style="info" %} 訊息提示區塊 {% endhint %}
   ```
   <p align="left">
     <a href="https://doc.anytype.io">
@@ -161,9 +161,9 @@ You are welcome to propose any changes in PR and participate in discussion in [I
     </a>
   </p>
   
-- **Warning Hint Block**
+- **警告提示區塊**
   ```
-  {% hint style="warning" %} Warning Hint Block {% endhint %}
+  {% hint style="warning" %} 警告提示區塊 {% endhint %}
   ```
     <p align="left">
     <a href="https://doc.anytype.io">
@@ -171,9 +171,9 @@ You are welcome to propose any changes in PR and participate in discussion in [I
     </a>
   </p>
   
-- **Success Hint Block**
+- **成功提示區塊**
   ```
-  {% hint style="success" %} Success Hint Block {% endhint %}
+  {% hint style="success" %} 成功提示區塊 {% endhint %}
   ```
     <p align="left">
     <a href="https://doc.anytype.io">
@@ -181,9 +181,9 @@ You are welcome to propose any changes in PR and participate in discussion in [I
     </a>
   </p>
   
-- **Danger Hint Block**
+- **危險提示區塊**
   ```
-  {% hint style="danger" %} Success Hint Block {% endhint %}
+  {% hint style="danger" %} 危險提示區塊 {% endhint %}
   ```
     <p align="left">
     <a href="https://doc.anytype.io">
@@ -191,37 +191,37 @@ You are welcome to propose any changes in PR and participate in discussion in [I
     </a>
   </p>
 
-### Media
+### 媒體
 
-- **Block:** To create a Media Block, you need to use the below convention
+- **區塊:** 創建媒體區塊時，需要使用以下慣例
   ```
-  ![Media Caption](<.gitbook/assets/file-name>)
+  ![媒體標題](<.gitbook/assets/file-name>)
   
   E.g.:
   
-  ![Home page](<.gitbook/assets/Screenshot 2021-11-05 at 18.45.31.png>)
+  ![首頁](<.gitbook/assets/Screenshot 2021-11-05 at 18.45.31.png>)
   ```
-  When adding a media block, if the page to which you are adding is nested, use `../` the appropriate number of times to make the embeds work.
+  添加媒體區塊時，如果您添加的頁面是嵌套的，請適當使用 `../` 來使嵌入工作。
 
-- **File Storage :** Any media has to be uploaded to the [.gitbook/assets/](https://github.com/anytypeio/docs/tree/main/.gitbook/assets) folder first. Only then it can be used inside the documentation. You may see GitBook embedding proprietary format `{% embed url=" in existing pages, you don't need to use that. 
+- **檔案儲存 :** 任何媒體必須首先上傳到 [.gitbook/assets/](https://github.com/anytypeio/docs/tree/main/.gitbook/assets) 資料夾。之後才能在文件中使用。您可能會看到 GitBook 在現有頁面中嵌入專有格式 `{% embed url="`，您不需要使用它。
 
-- **File Formats:** These are the only file formats accepted for uploading media in the documentation.
-    - **Videos:**
+- **檔案格式:** 這些是唯一可以接受上傳到文件中的媒體檔案格式。
+    - **影片:**
     
-      > ✔️ Use only **MP4**
-      > ❌ No **gifs** or other formats
+      > ✔️ 僅使用 **MP4**  
+      > ❌ 禁止使用 **gifs** 或其他格式
       
-    - **Images:**
+    - **圖片:**
       
-      > ✔️ Use only **PNG** and **JPG** images
-      > ❌ No other formats
+      > ✔️ 僅使用 **PNG** 和 **JPG** 圖片  
+      > ❌ 禁止其他格式
 
-- **Size Limits:**  There is a size limit of **5 MegaBytes** for each media file uploaded. 1000px wide images and videos can still be very legible, reducing 4k file size by probably 75%. 
+- **大小限制:**  每個媒體文件上傳的大小限制為 5 MB。1000px 寬的圖片和影片就非常清晰了，但可以將 4K 文件大小減少 75%。
 
-- **Naming:** To reduce confusion, when uploading, please rename your files in a human-readable format
+- **命名:** 為減少混淆，上傳時請以人類可讀格式重新命名您的檔案
   ```
-  <image-caption>-<page>.<file-format>
-  
-  E.g:
+  <圖片標題>-<頁面>.<文件格式>
+
+  例如：
   ✔️ loadingscreen-intro.png
   ❌ Screenshot 2021-11-05 at 18.45.31.png
