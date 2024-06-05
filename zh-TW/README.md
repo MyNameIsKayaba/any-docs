@@ -1,5 +1,5 @@
 ---
-description: Tools for thought, freedom & trust
+說明: 一款集結思想、自由及信任的工具
 ---
 
 # 歡迎來到Anytype

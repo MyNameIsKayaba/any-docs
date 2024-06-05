@@ -1,19 +1,19 @@
 ---
-description: >-
-  A folder-like structure where where you can visualize and batch edit objects
-  of any type
+說明: >-
+  一種類似資料夾結構，讓你可以視覺化並大量編輯Anytype物件。
 ---
 
-# Collections
+# 收藏(Collections)
 
-Collections can be used to organize a variety of different objects and store them in one place.
+收藏可用於整理各種不同的對象並將它們儲存在一個地方。
 
-You are not restricted to viewing only one Object Type at a time, this means you can have multiple different types within one collection.&#x20;
+您不僅限於一次查看一種類型的對象，這代表您可以在一個集合中擁有多種類型的對象。
 
-### Example
 
-If you are organizing your meal prep for the week, you might have a list of recipes, as well as ingredients and a shopping list.&#x20;
+### 例子
 
-The main types you may have could be Recipes and Ingredients.&#x20;
+如果您正在整理一週的餐點準備，您可能會有一份食譜列表以及食材和購物清單。
 
-In a Collection, you can organize all of this Types together seamlessly.&#x20;
+主要的類型可能是食譜和食材。
+
+在收藏中，您可以將這些類型無縫地整理在一起。

@@ -1,77 +1,85 @@
 ---
-description: A live search of all Objects which share a common Type or Relation
+說明: 一個即時搜尋所有共享相同類型或關係的物件
 ---
 
-# Sets
+# 集合
 
-{% content-ref url="../../use-cases/deep-dive-sets.md" %}
-[deep-dive-sets.md](../../use-cases/deep-dive-sets.md)
+{% content-ref url="../../../use-cases/deep-dive-sets.md" %}
+[deep-dive-sets.md](../../../use-cases/deep-dive-sets.md)
 {% endcontent-ref %}
 
-### Understanding Sets
+### 理解集合
 
-Lots of people compare Sets with databases, but there's a key difference: Sets don't _store_ Objects like regular databases.
+很多人會把集合理解為資料庫，但其中有一個關鍵區別：集合不會像常規資料庫一樣 _儲存_ 物件。
 
-Sets are a way to see a portion of your Graph, and Objects you've created, based on your filtered criteria, and several secondary filters which you can customize. You can think of them as a live filter or query for Objects which share certain criteria - specifically, a Type or a Relation.
+集合是一種查看您創建的關聯圖和物件的方法，依據您的主要篩選條件和多個次要篩選條件，這些條件可以自定義。您可以將它們視為共享特定標準（特別是類型或關係）對象的即時篩選或查詢。 
 
-#### Sets serve two primary functions:
+#### 集合有兩個主要功能：
 
-1. **Organizing and Accessing Objects**\
+1. **整理和取用對象**\
    \
-   We often get requests along the lines of: _How do I find all of the Notes I've created?_\
+   我們經常收到這樣的問題：  
+   >  如何找到我創建的所有筆記？
+
    \
-   One easy way is to create a Set based on Type.\
-   For example; Note, which will display every Note you've created in Anytype.\
+   一個簡單的方法是創建一個基於類型的集合。
    \
-   If you have specific notes you'd like to frequently access, you can filter them based on Relations you've added to these notes.\
+   舉例來說： 筆記，這將顯示您在 Anytype 中創建的每個筆記。\
    \
-   For instance: Creation Date, Tags, or Priority. (In this sense, Relations behave like attributes).\
+   如果您有特定的筆記希望經常訪問，您可以使用已添加到這些筆記的關係來篩選並取得它們。\
    \
-   You can then pin your Set to your Favorites menu, where it will sit on your Sidebar, acting like a folder for all Objects that meet certain criteria.
-2. **Editing Objects**\
+   舉例來說： 創建日期、標籤或優先等級。(在這種情況下關係就像屬性一樣)\
    \
-   Sets also provide a way to quickly edit Objects in a list View.\
+   您可以接著釘選您的集合到您的 _最愛_ 目錄，這樣它就會顯示在側邊欄中，像資料夾一樣存放所有符合特定標準的對象。
+
+<figure><img src="../../../.gitbook/assets/image (68).png" alt=""><figcaption></figcaption></figure>
+
+2. **編輯物件**\
    \
-   You can use multi-select Objects in Sets to delete multiple Objects at once, or to batch update the Object Type. Any Relations added to a Set in the Relation Menu (top right), will be adopted by all new Objects created with the "+ New Object" button.
+   集合還提供了一種在列表視圖中快速編輯對象的方法。
+   \
+   \
+   您可以多選物件在集合中一次性刪除多個物件，或批量更新物件類型。任何添加到關係目錄（右上角）中的集合的關係，都會被所有用 "+ 新建物件" 按鈕創建的新物件採用。
 
-<figure><img src="../../.gitbook/assets/image (68).png" alt=""><figcaption></figcaption></figure>
+### 創建集合
 
-### Creating Sets
+#### 您可以使用左下角的 + 或在編輯器中使用 / 快捷目錄創建一個集合。
 
-#### You can create a Set with the + in the bottom-left corner or using the / shortcut menu in the editor.
+接者您需要選擇是否希望按類型創建集合，這樣可以列出所有特定類型的物件，還是按關係創建集合，這樣會列出所有包含您選擇的關係的物件。
 
-You'll then need to choose if you want a Set by Type which lets you list all of your Objects of a certain Type, or a Set by Relation which will list all Objects that contain the Relation of your choosing.&#x20;
+您還可以從新文檔中的物件類型中創建一個集合。
 
-You can also create a Set by Type from the Object type toggle on a new document.
+<figure><img src="../../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+#### 接著, 您需要決定您的集合的用途
 
-#### Next, you need to decide on the purpose of your Set.&#x20;
+舉例來說，專案管理可能需要類型：「專案」，閱讀列表需要類型：「書籍」。從儲存庫中選擇一物件類型，點擊“創建”，然後選擇“創建一個集合”。
+這會創建一個集合
 
-For example, project management may require Type: Project, for reading list — Book. From the Library, choose an Object Type, click "Create," and choose "Create a set."
+這將創建一個所有類型為書籍的物件集合。
 
-This will then create a set of all the Objects with the Type: Books.&#x20;
+現在您有一個整齊的Anytype的書籍物件。
 
-Now you have an organized selection of all your book objects entered into Anytype.
+<figure><img src="../../../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
+### 自定義您的集合
 
-### Customizing Your Set
+#### 通過集合切換和添加物件關係
 
-#### Toggle & Add Relations to Objects via Sets
+您可以通過點擊右側的篩選器一次性批量添加它們到您的集合，而不是一個一個物件添加關係。
 
-Instead of adding Relations one-by-one to Objects, you can batch-add them to your Set by clicking the filters on the right side.
+在這裡，您可以打開/關閉任何您想要查看的關係，添加另一個關係或新關係，並在這裡編輯集合的視圖。
 
-Here you can toggle on/off any Relations that you would like to see, add another Relation or new relation, and edit the View of the Set here.
+![](<../../../.gitbook/assets/image (16).png>)
 
-![](<../../.gitbook/assets/image (16).png>)
+您可以在創建**類型**的過程中，通過添加它們來自動將任何關係添加到您的**物件**中。
 
-You can add any Relations to be automatically added to your **Objects**, by adding them in the creation process of your **Type**.
+在這裡查看更多關於[如何創建新類型](../types/create-a-new-type.md "mention")的信息。在新類型過程的**標題和模板**部分下，您可以看到「關係」選項。
 
-See more about how to [create-a-new-type.md](../types/create-a-new-type.md "mention") here. Underneath the title & Template section of the new Type process you'll have the Relation options.
+![](<../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png>)
 
-![](<../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png>)
+透過這張圖可以更清楚的呈現為何上述提到「關係」扮演的角色類似物件的屬性
 
-#### Sorts & Filters
+#### 排序和篩選
 
-You are also able to sort or filter your set by any relation that you've previously added to the Set.
+您還可以按以前添加到集合中的任何關係對您的集合進行排序或篩選。

@@ -1,5 +1,5 @@
-# Sets & Collections
+# 集合(Sets) & 收藏(Collections)
 
-[sets.md](sets.md "mention") and [collections.md](collections.md "mention") are very similar in their appearance and layout, however they function somewhat differently.
+[sets.md](sets.md "mention") 和 [collections.md](collections.md "mention") 的外觀和呈現非常相似，但稍微有些不同。
 
-For instance, the [views.md](views.md "mention"),  filters and sorts all work mostly the same, but the way you choose which objects will be shown inside the set / collection is very different. Sets use queries which automatically fetch objects, while collections depend on linking the objects manually.
+舉例來說，在[views.md](views.md "mention")中，這些過濾和排序大致上都相同，但選擇要顯示在 集合/收藏 中的對象的方式非常不同。集合使用查詢來<mark>自動</mark>獲取對象，而收藏則依賴<mark>手動</mark>連接象。
